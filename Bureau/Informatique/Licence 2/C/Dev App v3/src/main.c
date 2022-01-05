@@ -206,15 +206,16 @@ int main(int argc, char **argv)
 			case 6:
 			{
 				fclose(fichier);
-				FILE *reset = fopen("ingredients.txt","w");
-				fclose(reset);
+				//FILE *reset = fopen("ingredients.txt","w");
+				//fclose(reset);
 
-				FILE *fichier2 = fopen("ingredients.txt","r+");
+				//FILE *fichier2 = fopen("ingredients.txt","r+");
 
 				//enregistrerArbre(arbre, fichier2);
 
-				fclose(fichier2);
+				//fclose(fichier2);
 				libererArbre(&arbre);
+				free(arbre);
 				break;
 			}
 
