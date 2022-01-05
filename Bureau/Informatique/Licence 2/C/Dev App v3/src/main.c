@@ -211,7 +211,7 @@ int main(int argc, char **argv)
 
 				FILE *fichier2 = fopen("ingredients.txt","r+");
 
-				enregistrerArbre(arbre, fichier2);
+				//enregistrerArbre(arbre, fichier2);
 
 				fclose(fichier2);
 				libererArbre(&arbre);
