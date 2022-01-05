@@ -1,0 +1,6 @@
+0|sel|pincees
+1|poivre|pincees
+2|sucre|g
+3|citron|zeste
+4|jus|l
+5|beurre|g
